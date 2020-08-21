@@ -42,3 +42,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+##　本地仓库转为远程github远程仓库
+
+1. 在github上创建`demo-reactapp`仓库
+2. 在本地仓库提交代码
+
+```
+cd demo-reactapp
+git add .
+git commit -m "init project."
+git remote add origin git@github.com:abelit/demo-reactapp.git
+git push -u origin master
+```
