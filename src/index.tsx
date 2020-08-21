@@ -17,9 +17,14 @@ import FormSizeDemo, {DynamicFieldSet} from './components/ant/FormDemo';
 import DatePickerDemo from './components/ant/DatePickerDemo';
 import SkeletonDemo from './components/ant/SkeletonDemo';
 
+import PropsDemo from './components/base/PropsDemo';
+import TimerDemo from './components/base/TimerDemo';
+
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
+    <PropsDemo name="abelit" />
+    <TimerDemo />
     <SkeletonDemo />
     <DatePickerDemo />
     <FormSizeDemo />
